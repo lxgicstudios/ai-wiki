@@ -1,14 +1,43 @@
 {
   "name": "ai-wiki",
   "version": "1.0.0",
-  "description": "Generate a project wiki from your codebase",
+  "description": "AI-powered wiki generator - GitHub wiki pages from code with GPT",
   "main": "dist/index.js",
-  "bin": { "ai-wiki": "dist/cli.js" },
-  "scripts": { "build": "tsc" },
-  "keywords": ["ai", "cli", "developer-tools", "npx", "nodejs", "openai"],
+  "bin": {
+    "ai-wiki": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "ai",
+    "openai",
+    "gpt",
+    "wiki",
+    "documentation",
+    "github-wiki",
+    "knowledge-base",
+    "developer-tools",
+    "cli",
+    "automation",
+    "typescript",
+    "nodejs",
+    "markdown",
+    "docs"
+  ],
   "license": "MIT",
-  "dependencies": { "commander": "^12.1.0", "openai": "^4.73.0", "ora": "^5.4.1" },
-  "devDependencies": { "typescript": "^5.6.0", "@types/node": "^22.0.0" },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "openai": "^4.73.0",
+    "ora": "^5.4.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0",
+    "@types/node": "^22.0.0"
+  },
   "author": "LXGIC Studios",
-  "repository": { "type": "git", "url": "https://github.com/LXGIC-Studios/ai-wiki" }
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LXGIC-Studios/ai-wiki"
+  }
 }

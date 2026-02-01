@@ -1,6 +1,6 @@
 {
   "name": "ai-wiki",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AI-powered wiki generator - GitHub wiki pages from code with GPT",
   "main": "dist/index.js",
   "bin": {

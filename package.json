@@ -3,9 +3,14 @@
   "version": "1.0.1",
   "description": "AI-powered wiki generator - GitHub wiki pages from code with GPT",
   "main": "dist/index.js",
+  "types": "./dist/index.d.ts",
   "bin": {
     "ai-wiki": "dist/cli.js"
   },
+  "files": [
+    "dist",
+    "README.md"
+  ],
   "scripts": {
     "build": "tsc"
   },
@@ -28,7 +33,27 @@
     "markdown",
     "docs"
   ],
+  "author": "LXGIC Studios",
   "license": "MIT",
+  "homepage": "https://github.com/LXGIC-Studios/ai-wiki#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LXGIC-Studios/ai-wiki"
+  },
+  "bugs": {
+    "url": "https://github.com/LXGIC-Studios/ai-wiki/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/LXGIC-Studios"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  },
   "dependencies": {
     "commander": "^12.1.0",
     "openai": "^4.73.0",
@@ -37,10 +62,5 @@
   "devDependencies": {
     "typescript": "^5.6.0",
     "@types/node": "^22.0.0"
-  },
-  "author": "LXGIC Studios",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/LXGIC-Studios/ai-wiki"
   }
 }

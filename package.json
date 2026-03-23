@@ -38,7 +38,7 @@
   "homepage": "https://github.com/LXGIC-Studios/ai-wiki#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LXGIC-Studios/ai-wiki"
+    "url": "git+https://github.com/LXGIC-Studios/ai-wiki.git"
   },
   "bugs": {
     "url": "https://github.com/LXGIC-Studios/ai-wiki/issues"

@@ -15,30 +15,38 @@
     "build": "tsc"
   },
   "keywords": [
+    "2025-standards",
     "ai",
+    "ai-2025",
+    "ai-powered",
     "anthropic",
-    "claude",
-    "llm",
-    "openai",
-    "gpt",
-    "wiki",
-    "documentation",
-    "github-wiki",
-    "knowledge-base",
-    "developer-tools",
-    "cli",
     "automation",
-    "typescript",
-    "nodejs",
+    "claude",
+    "cli",
+    "developer-productivity",
+    "developer-tools",
+    "discoverability",
+    "docs",
+    "documentation",
+    "generative-ai",
+    "github-wiki",
+    "llm-optimized",
     "markdown",
-    "docs"
+    "modern-seo",
+    "optimization",
+    "performance",
+    "performance-optimization",
+    "seo",
+    "seo-2026",
+    "typescript",
+    "wiki"
   ],
   "author": "LXGIC Studios",
   "license": "MIT",
   "homepage": "https://github.com/LXGIC-Studios/ai-wiki#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LXGIC-Studios/ai-wiki.git"
+    "url": "https://github.com/LXGIC-Studios/ai-wiki"
   },
   "bugs": {
     "url": "https://github.com/LXGIC-Studios/ai-wiki/issues"
